@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>Mudae's Quality/Quantity Kakera Requirements</div>
+    <div>Mudae's Quality/Quantity Levels Kakera Requirement</div>
 
     <div>
       <label class="right-label">From: </label>
