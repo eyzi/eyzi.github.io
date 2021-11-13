@@ -71,6 +71,7 @@ module.exports = {
           title: 'Case Styles',
           collapsable: false,
           children: [
+            '',
             'title-case',
             'sentence-case',
             'uppercase',
