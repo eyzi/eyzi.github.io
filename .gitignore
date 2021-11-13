@@ -1,5 +1,12 @@
+pids
+logs
 node_modules
-.DS_Store
+npm-debug.log
+coverage/
+run
 dist
-dist-ssr
-*.local
+.DS_Store
+.nyc_output
+.basement
+config.local.js
+basement_dist

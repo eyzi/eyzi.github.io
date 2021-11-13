@@ -1,19 +1,19 @@
 {
   "name": "eyzi.github.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "How Not To Be A Programmer 101 by Eyzi",
+  "main": "index.js",
+  "authors": {
+    "name": "Eyzi",
+    "email": "contact@eyzi.dev"
+  },
+  "repository": "git@github.com:eyzi/eyzi.github.io.git",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
-  "dependencies": {
-    "vue": "^3.2.16",
-    "vue-router": "^4.0.12"
-  },
+  "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
-    "typescript": "^4.4.3",
-    "vite": "^2.6.4",
-    "vue-tsc": "^0.3.0"
+    "vuepress": "^1.5.3"
   }
 }
