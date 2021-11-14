@@ -59,9 +59,9 @@ when there are two acronyms?
 function getHTTPAPIMethod(request) { ... }
 ```
 
-I like to do is treat the entire string as lowercased, then capitalize
-the beginning of each word, including acronmys. I just find it better
-to read that way.
+I like to treat the entire string as lowercased, then capitalize the
+beginning of each word, including acronmys. I just find it better to
+read that way.
 
 ```js
 function parseUrlString(url) { ... }

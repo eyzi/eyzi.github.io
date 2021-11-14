@@ -27,8 +27,8 @@ function setVerticalPosition(value) { ... }
 ```
 
 I would encourage people to find a better verb than `get` or `set` if
-they can help it, but those are truly the best verbs to use, then by
-all means.
+they can help it. If those are truly the best verbs to use for a
+particular function, then by all means.
 
 ```js
 function retrieveUser(id) { ... }

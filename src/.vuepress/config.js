@@ -64,7 +64,11 @@ module.exports = {
         {
           title: 'Naming Conventions',
           path: '/naming-conventions/',
-        }
+        },
+        {
+          title: 'Architectures',
+          path: '/architectures/',
+        },
       ],
       '/case-styles/': [
         {
@@ -93,7 +97,11 @@ module.exports = {
         {
           title: 'Naming Conventions',
           path: '/naming-conventions/',
-        }
+        },
+        {
+          title: 'Architectures',
+          path: '/architectures/',
+        },
       ],
       '/naming-conventions/': [
         {
@@ -113,6 +121,32 @@ module.exports = {
             'variables',
             'functions',
             'entities',
+          ],
+        },
+        {
+          title: 'Architectures',
+          path: '/architectures/',
+        },
+      ],
+      '/architectures/': [
+        {
+          title: 'About',
+          path: '/about/',
+        },
+        {
+          title: 'Case Styles',
+          path: '/case-styles/',
+        },
+        {
+          title: 'Naming Conventions',
+          path: '/naming-conventions/',
+        },
+        {
+          title: 'Architectures',
+          collapsable: false,
+          sidebarDepth: 3,
+          children: [
+            '',
             'files-and-folders',
           ],
         },
