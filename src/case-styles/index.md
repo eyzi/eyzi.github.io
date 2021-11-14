@@ -1,22 +1,23 @@
-# What are Case Styles?
+# Introduction
+
+Before thinking about the concepts in programming, I think it is vital
+that we understand the styles in which we write. After all, we will be
+_writing_ code. With that, we will also be _reading_ code. A lot.
 
 Case styles are how we construct text. It is a tool we can (and have)
 to use so we convey the right message across. These styles bring rhythm
 to our prose. The more consistent our usage is, the easier it is for
 others to understand us.
 
-This is especially important to keep in mind while programming. Not
-only do we need to write in a way that a machine could understand, but
-also for other people to understand. You never know when someone will
-have to read the code we write, including our future selves.
+As programmers, we spend more time reading code that writing it. You
+will be reading someone else's code. Someone else will be reading your
+code. Hell, you will be reading your own code. The best thing we can do
+is make reading less of a chore.
 
-Being consistent with how and when we use these styles is the most
-important thing in programming. The second most important thing is
-having good shared knowledge among the people who you work with and
-will work with. That is where following conventions and good practices
-come in handy as it is something you can expect everyone already know.
-Otherwise, you better make sure your documentation skills are damn
-good.
+To achieve that, the most important thing is to be consistent with how
+and when we use these case styles. The second most important thing is
+a good shared knowledge among those who will be sharing the same
+codebase. Those two points are easily solved by following coding conventions and good practices.
 
 ## Capitalization
 

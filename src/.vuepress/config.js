@@ -36,8 +36,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/'
+        text: 'Github',
+        link: 'https://github.com/eyzi/eyzi.github.io',
       },
       {
         text: 'Website',
@@ -49,9 +49,9 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/about/': [
         {
-          title: 'Guide',
+          title: 'About',
           collapsable: false,
           children: [
             ''
@@ -60,12 +60,16 @@ module.exports = {
         {
           title: 'Case Styles',
           path: '/case-styles/',
+        },
+        {
+          title: 'Naming Conventions',
+          path: '/naming-conventions/',
         }
       ],
       '/case-styles/': [
         {
-          title: 'Guide',
-          path: '/guide/',
+          title: 'About',
+          path: '/about/',
         },
         {
           title: 'Case Styles',
@@ -85,7 +89,33 @@ module.exports = {
             'mixed-case',
             'whatever-case',
           ],
+        },
+        {
+          title: 'Naming Conventions',
+          path: '/naming-conventions/',
         }
+      ],
+      '/naming-conventions/': [
+        {
+          title: 'About',
+          path: '/about/',
+        },
+        {
+          title: 'Case Styles',
+          path: '/case-styles/',
+        },
+        {
+          title: 'Naming Conventions',
+          collapsable: false,
+          sidebarDepth: 3,
+          children: [
+            '',
+            'variables',
+            'functions',
+            'entities',
+            'files-and-folders',
+          ],
+        },
       ]
     }
   },

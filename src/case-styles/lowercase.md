@@ -4,15 +4,13 @@ Now we come to a style that totally tosses the idea of capitalization
 out of the window. While capitalization is about emphasis, the
 lowercase style benefits from the lack of it. That is, it makes the
 words--or the meaning of the words--neutral, it doesn't catch the eye
-too much, and often it's smoother to read.
+too much.
 
 > that's why this is how i often type messages. it just seems to be
 > devoid of opinions no matter what i say and, strangely, i also find
 > it much easier to read. pineapple on pizza is good.
 
 Keywords in (modern) programming languages are often in lowercase.
-Firstly, since you don't have to worry about capitalization, it makes
-them easier to remember.
 
 ```js
 export default {};
@@ -31,7 +29,3 @@ switch (currency.toLowerCase()) {
   case "jpy": ...;
 }
 ```
-
-::: tip
-lowercase is the best case
-:::

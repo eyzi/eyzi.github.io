@@ -6,13 +6,13 @@ looks the closest to a space. Often used with
 
 This is usually used when the evaluator is case insensitive where it
 would be confusing to use [camel case](/case-styles/camel-case), such
-as in APIs. You'll find body propreties often in snake case.
+as in APIs. You'll find body properties often in snake case.
 
 ```
 GET https://movies.db?exclude_genre=horror,comedy
 ```
 
-## UPPER_SNAKE_CASE
+## `UPPER_SNAKE_CASE`
 
 As mentioned before, the [uppercase](/case-styles/uppercase) can be
 used for keywords whose values will never change, also known as

@@ -8,9 +8,9 @@ objects.
 message.author.name
 ```
 
-Another place I've seen it used is in feature toggles, which is quite
-smart as it resembles accessing a JSON object property.
+Another place I've seen it used as keys in feature toggles, which is
+quite smart as it resembles accessing a JSON object property.
 
-```
-api.users.showPassword
+```js
+if (features.get("api.users.showPassword")) { ... }
 ```
