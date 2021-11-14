@@ -12,6 +12,9 @@ address.
 src/modules/first-module
 ```
 
+I usually use [kebab case](/case-styles/kebab-case) for files and
+folders.
+
 ## Structure
 
 I have a lot of dummy projects, some of them are for code katas and

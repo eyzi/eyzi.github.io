@@ -4,8 +4,6 @@ We use plural nouns when we're dealing with a collection and singular
 nouns when dealing with individual items. That's obvious, but it may
 not be so obvious in practice.
 
-My rule of thumb is to
-
 ## Singular
 
 Class names should be singular as they are used to create a single
