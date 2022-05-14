@@ -1,6 +1,7 @@
 # Variables
 
-A variable holds a value. That's it.
+A variable holds a value. That's it. That is probably the most basic
+concept in programming.
 
 Generally, the name you give a variable should describe the value it
 contains.

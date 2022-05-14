@@ -49,7 +49,7 @@ specific. Sometimes it slowly becomes an unnatural sentence.
 blockLoginRequestNoOauth();
 ```
 
-The art is to keep it to read as a normal phrase while being concise.
+The art✨ is to keep it to read as a normal phrase while being concise.
 
 ```js
 restrictLogin();

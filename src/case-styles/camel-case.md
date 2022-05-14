@@ -67,3 +67,7 @@ read that way.
 function parseUrlString(url) { ... }
 function getHttpApiMethod(request) { ... }
 ```
+
+This is obviously up to personal taste. Keeping acronyms all-caps in
+camel case is perfectly acceptable. The *only* acceptable way in some
+teams, even. Just remember the [platinum rule](/about/platinum-rule).

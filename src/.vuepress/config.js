@@ -36,7 +36,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Github',
+        text: 'Source Code',
         link: 'https://github.com/eyzi/eyzi.github.io',
       },
       {
@@ -54,7 +54,8 @@ module.exports = {
           title: 'About',
           collapsable: false,
           children: [
-            ''
+            '',
+            'platinum-rule'
           ],
         },
         {
