@@ -24,3 +24,22 @@ if at all.
 ## How to devise a solution
 
 ## Thinking outside the box
+
+Contrary to what most people may think, I believe solving a problem
+needs to not be serious, or at least be allowed a significant portion
+of the problem solving process -- maybe about half -- to play around
+with absurd ideas. This allows for the mind to not tunnel vision onto
+a few parameters of the problems that you would otherwise think are
+necessary to solving it, and allow your mind to take a step back and
+look at the problem in one or more different perspectives. After all,
+the serious and focused part is only required when implementing the
+solution to the problem.
+
+## Evaluating a programmer
+
+A test may show how good a programmer is on a particular language or
+particular subject, but I believe there is no test that accurately
+gauges how good a programmer is at solving problems, which I would say
+is what makes a good programmer. Observing how someone learns or adapts
+to challenges could be a better tell of good problem solving skills,
+which would take more time than doing a test.
