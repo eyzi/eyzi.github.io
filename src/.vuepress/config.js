@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+const { removePlugin, PLUGINS } = require('@vuepress/markdown')
 
 module.exports = {
   /**
@@ -18,10 +19,19 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { charset: 'utf-8' }],
+    ['meta', { name: 'theme-color', content: '#cc3131' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+
+  markdown: {
+    chainMarkdown(config) {
+      removePlugin(config, PLUGINS.EMOJI)
+    },
+  },
+
+  theme: 'default-prefers-color-scheme',
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -29,6 +39,8 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    overrideTheme: 'dark',
+    prefersTheme: 'dark',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -55,7 +67,42 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'platinum-rule'
+            'what-is-programming',
+            'how-do-i-learn-programming',
+          ],
+        },
+        {
+          title: 'Programming Concepts',
+          path: '/concepts/',
+        },
+        {
+          title: 'Case Styles',
+          path: '/case-styles/',
+        },
+        {
+          title: 'Naming Conventions',
+          path: '/naming-conventions/',
+        },
+        {
+          title: 'Architectures',
+          path: '/architectures/',
+        },
+      ],
+      '/concepts/': [
+        {
+          title: 'About',
+          path: '/about/',
+        },
+        {
+          title: 'Programming Concepts',
+          collapsable: false,
+          children: [
+            '',
+            'keywords',
+            'statements',
+            'variables',
+            'functions',
+            'conditions'
           ],
         },
         {
@@ -75,6 +122,10 @@ module.exports = {
         {
           title: 'About',
           path: '/about/',
+        },
+        {
+          title: 'Programming Concepts',
+          path: '/concepts/',
         },
         {
           title: 'Case Styles',
@@ -110,6 +161,10 @@ module.exports = {
           path: '/about/',
         },
         {
+          title: 'Programming Concepts',
+          path: '/concepts/',
+        },
+        {
           title: 'Case Styles',
           path: '/case-styles/',
         },
@@ -133,6 +188,10 @@ module.exports = {
         {
           title: 'About',
           path: '/about/',
+        },
+        {
+          title: 'Programming Concepts',
+          path: '/concepts/',
         },
         {
           title: 'Case Styles',
