@@ -43,3 +43,15 @@ gauges how good a programmer is at solving problems, which I would say
 is what makes a good programmer. Observing how someone learns or adapts
 to challenges could be a better tell of good problem solving skills,
 which would take more time than doing a test.
+
+> The best solution is not the cleanest, the shortest, or the fastest.
+> The best solution is the one you understand best.
+
+> Don't worry about your solution being basic or messy. Write a
+> solution -- *any* solution -- that solves the problem. Start with a
+> gut feeling of how you would go about it. Once it is working, then
+> you can work on maybe cleaning it up or optimizing some parts.
+
+- Working - "Does this solve the problem?"
+- Correct - "Is this the right solution to the problem"
+- Succint - "Are there any unnecessary parts of this solution?"

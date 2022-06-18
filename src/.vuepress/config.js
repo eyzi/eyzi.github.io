@@ -102,7 +102,9 @@ module.exports = {
             'statements',
             'variables',
             'functions',
-            'conditions'
+            'conditions',
+            'loops',
+            'algorithms'
           ],
         },
         {
